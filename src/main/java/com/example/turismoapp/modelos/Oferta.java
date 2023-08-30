@@ -6,7 +6,7 @@ import java.time.LocalDate;
 @Entity
 @Table (name = "Oferta")
 public class Oferta {
-@Id
+@Id //asi se define la clave primaria
 @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 

@@ -6,10 +6,11 @@ import com.example.turismoapp.Validaciones.OfertaValidacion;
 import com.example.turismoapp.modelos.Local;
 import com.example.turismoapp.modelos.Oferta;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class OfertaServicio {
 
     @Autowired
